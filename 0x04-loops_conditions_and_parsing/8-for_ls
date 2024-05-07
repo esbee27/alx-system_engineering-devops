@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#This shell sceipt displays the content ofbthe current directory, stating from the words after "-"
+
+for i in *
+do
+	echo $i | cut -d "-" -f2
+done
