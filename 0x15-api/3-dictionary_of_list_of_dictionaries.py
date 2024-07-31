@@ -22,4 +22,4 @@ if __name__ == "__main__":
                 taskList.append(taskDic)
         allTodos[user.get('id')] = taskList
 with open("todo_all_employees.json", mode='w') as f:
-    json.dump(allTodos,f)
+    json.dump(allTodos, f)
