@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A script thatreturns the number of subscribers"""
+"""A script that returns the number of subscribers"""
 import requests
 
 
