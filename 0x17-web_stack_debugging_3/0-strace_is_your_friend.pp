@@ -1,5 +1,5 @@
 # Creates a manidest that fixes typos of a filename
-exec { 'fix_typo':
-  command => 'mv /var/www/html/wp-includes/class-wp-locale.php /var/www/html/wp-includes/class-wp-locale.phpp',
-  path => '/bin/'
+exec { 'fix_wordpress':
+  command => 'sed -i s/phpp/php/g /var/www/html/wp-settings.php',
+  path => 'usr/local/bin/:/bin/'
   }
